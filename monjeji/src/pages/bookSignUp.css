@@ -1,0 +1,232 @@
+.bookSignUpInfo {
+    margin: 61px 70px 0 70px;
+}
+
+.bookSignUpSearchBar {
+    display: flex;
+    width: 100%;
+    height: 36px;
+    border-bottom: 0.2px solid #2C2C2C;
+    justify-content: left;
+}
+
+.bookSignupISBN {
+    font-size: 16px;
+    display: flex;
+    margin-top: 10px;
+    justify-content: right;
+}
+
+.bookSignupISBN > div {
+    padding-top: 2px;
+}
+
+.bookSignupISBNBtn {
+    position: relative;
+    justify-content: right;
+    margin: 0 6px 2px 0;
+    width: 23px;
+    height: 23px;
+    border: 0;
+    background: url("../../public/img/Info.svg");
+    cursor: pointer;
+}
+
+.bookSignupISBNBtn:hover p {
+    top: 19px;
+    visibility: visible;
+    background: #FFFFFF;
+    opacity: 1;
+}
+
+.bookSignUpArrowBox {
+    display: flex;
+    position: absolute;
+    top: 19px;
+    right: -100px;
+    width: 800px;
+    padding: 5px 7px;
+    font-size: 16px;
+    border-radius: 2px;
+    visibility:hidden;
+    opacity: 1;
+    background: #FFFFFF;
+    box-shadow: 0 0 7px rgba(28, 102, 255, 0.2);
+}
+
+.bookSignUpArrowBox:before {
+    position: absolute;
+    content: '';
+    width: 0;
+    height: 0;
+    top: -5px;
+    right: -100px;
+    background: #FFFFFF;
+    box-shadow: 0 0 7px rgba(28, 102, 255, 0.2);
+    opacity: 1;
+}
+
+.bookSignUpArrowBox > img {
+    width: 177px;
+    height: 107px;
+    margin: 38px 35px 20px 30px;
+}
+
+.bookSignUpArrowBox > div {
+    margin: 38px 30px 23px 0;
+}
+
+.bookSignUpArrowBox > div >span {
+    font-weight: 700;
+    color: #1C66FF;
+}
+
+/*-----------------------------*/
+
+.bookSignUpInfoSub {
+    margin: 35px 0 0 4px;
+    font-size: 20px;
+}
+
+.bookSignUpSubTags {
+    margin: 16px 0 0 0;
+}
+
+.bookSignUpSubTags > span {
+    position: relative;
+    margin-right: 10px;
+}
+
+.bookSignUpSubTags input[type=radio] {
+    position: absolute;
+    width: 80%;
+    height: 40px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.bookSignUpSubTags input[type=radio] + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    border-radius: 40px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.bookSignUpSubTags input[type=radio]:checked + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    border: 1px solid #1C66FF;
+    color: #1C66FF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    background: rgba(28, 102, 255, 0.1);
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.bookSignUpDetailTag {
+    margin-top: 60px;
+    font-size: 20px;
+}
+
+.bookSignUpComTags {
+    margin-top: 20px;
+}
+
+.bookSignUpComTags span {
+    position: relative;
+    margin-right: 10px;
+}
+
+.bookSignUpDetailTag input[type=checkbox] {
+    position: absolute;
+    width: 95%;
+    min-width: 100px;
+    height: 40px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.bookSignUpDetailTag input[type=checkbox] + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    border-radius: 40px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.bookSignUpDetailTag input[type=checkbox]:checked + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+    border: 1px solid #1C66FF;
+    color: #1C66FF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    background: rgba(28, 102, 255, 0.1);
+    line-height: 25px;
+    cursor: pointer;
+}
+
+/*-------------------------------------------*/
+
+.bookSignUpDetail {
+    position: relative;
+    display: flex;
+    min-width: 1300px;
+    height: 123px;
+    margin: 45px 0 30px 0;
+    border: 0.2px solid #000000;
+    justify-content: left;
+}
+
+.bookSignUpDetail > textarea {
+    resize: none;
+    border: 0;
+    padding: 18px 0 0 20px;
+    width: 1086px;
+    outline: none;
+}
+
+.bookSignUpDetail > button:nth-child(1) {
+    color: #2C2C2C;
+    width: 101px;
+    font-weight: lighter;
+    height: 100%;
+    font-size: 30px;
+    background: 0;
+    border: 0;
+    border-right: 0.2px solid #000000;
+    cursor: pointer;
+}
+
+.bookSignUpDetail > button:nth-child(3) {
+    position: absolute;
+    color: #FFFFFF;
+    width: 113px;
+    height: 100%;
+    font-size: 20px;
+    background: #1C66FF;
+    border: 0;
+    border-left: 0.2px solid #000000;
+    cursor: pointer;
+    right: 0;
+}
+
+.bookSignUpCommend{
+    color: #9E9E9E;
+    font-size: 16px;
+    margin-bottom: 50px;
+}

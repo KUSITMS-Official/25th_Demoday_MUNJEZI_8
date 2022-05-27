@@ -1,0 +1,123 @@
+
+.filter-frame {
+    display: flex;
+    padding-bottom: 40px
+}
+
+.deco-divider {
+    width: 70px;
+    min-width: 70px;
+    height: 0px;
+    border: 0.2px solid #2C2C2C;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.filterBox {
+
+}
+
+.filterBoxTitle {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 25px;
+    /* identical to box height */
+    color: #2C2C2C;
+}
+
+.filterBoxBlue {
+    margin-top: 26px;
+    font-size: 16px;
+}
+
+.filterBoxBlue span {
+    position: relative;
+    margin-right: 10px;
+}
+
+.filterBoxBlue input[type=checkbox] {
+    position: absolute;
+    width: 95%;
+    min-width: 100px;
+    height: 40px;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.filterBoxBlue input[type=checkbox] + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+    border: 1px solid #000000;
+    font-size: 16px;
+    border-radius: 40px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.filterBoxBlue input[type=checkbox]:checked + label {
+    display: inline-block;
+    height: 30px;
+    padding: 5px 20px;
+    margin-bottom: 13px;
+    border: 1px solid #1C66FF;
+    color: #1C66FF;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 40px;
+    background: rgba(28, 102, 255, 0.1);
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.filter label {
+    background-color: blue;
+    border: 1px solid #000000;
+    border-radius: 40px;
+    margin-right: 10px;
+    height: 30px;
+    padding: 5px 20px;
+
+    font-size: 20px;
+    line-height: 25px;
+
+}
+
+.input:checked {
+    background-color: red;
+    border: 1px solid #2C2C2C;
+}
+
+.filter-footer {
+    position: sticky;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+    border-top: 1px solid #2C2C2C;
+    border-bottom: 1px solid #2C2C2C;
+    clear: both;
+
+}
+
+.filter-footer-clear {
+    border-right: 1px solid #2C2C2C;
+    height: 100%;
+    width: 170px;
+    line-height: 50px;
+    background: #ffffff;
+}
+
+
+.filter-footer-result {
+    color: white;
+    background-color: #1C66FF;
+    height: 100%;
+    width: 280px;
+    line-height: 50px
+}

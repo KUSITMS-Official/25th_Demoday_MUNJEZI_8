@@ -1,0 +1,214 @@
+.SignUpModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SignUpModal button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+.signUpSection {
+    width: 900px;
+    height: 800px;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-show 0.3s;
+    overflow: hidden;
+}
+
+.signUpHeader {
+    height: 5%;
+    position: relative;
+    padding: 16px 64px 16px 16px;
+    background-color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.SignUpModal > section > header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+}
+
+.signUpSection > main {
+    padding: 0 45px 0 45px;
+}
+
+.signUpTop {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.signUpTopLeft {
+    font-size: 25px;
+}
+
+.signUpTopRight {
+    font-size: 16px;
+    color: #9E9E9E;
+    position: relative;
+    top: 15px;
+}
+
+.signUpTopRight > span {
+    color: #1C66FF;
+}
+
+.signUpMidBox {
+    font-size: 20px;
+    height: 56px;
+    display: flex;
+}
+
+.signUpMidBox > div:nth-child(1) {
+    margin: 10px 0;
+    width: 125px;
+}
+
+.signUpMidBox > div:nth-child(1) span {
+    color: #1C66FF;
+}
+
+.signUpMidBox >span:nth-child(1){
+    position: relative;
+    top: -15px;
+    color: #1C66FF;
+    font-size: 16px;
+}
+
+.signUpMidBox > button {
+    margin: 10px 0;
+    width: 100px;
+    height: 36px;
+    background: #2C2C2C;
+    color: #FFFFFF;
+    font-size: 16px;
+}
+
+.signUpBox {
+    margin: 10px 25px 10px 45px;
+    border-radius: 2px;
+    width: 319px;
+    border: 0;
+    border-bottom: 1px solid #2C2C2C;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.signUpBoxRadio {
+    margin: 10px 25px 10px 45px;
+    border-radius: 2px;
+    width: 319px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.signUpBoxRadio > input[type="radio"] {
+    display: none;
+}
+
+.signUpBoxRadio > input[type="radio"] + label {
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: -2px 9px 0 4px;
+    font-size: 0;
+    vertical-align: middle;
+    content: url("../../public/img/radioBox.svg");
+}
+
+.signUpBoxRadio > input[type="radio"]:checked + label {
+    content: url("../../public/img/radioBoxCheck.svg");
+}
+
+.signUpBoxRadio > span {
+    margin-right: 30px;
+}
+
+.signUpBoxCheck {
+    margin: 10px 25px 10px 45px;
+    border-radius: 2px;
+    width: 319px;
+    outline: none;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.signUpBoxCheck > input[type="checkbox"] {
+    display: none;
+}
+
+.signUpBoxCheck > input[type="checkbox"] + label{
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    margin: -2px 9px 0 4px;
+    font-size: 0;
+    vertical-align: middle;
+    content: url("../../public/img/radioBox.svg");
+}
+
+.signUpBoxCheck > input[type="checkbox"]:checked + label {
+    content: url("../../public/img/radioBoxCheck.svg");
+}
+
+
+.SignUpModal > section > footer {
+    padding: 0px 45px 0 45px;
+    text-align: center;
+}
+
+.signUpButton {
+    width: 100%;
+    height: 45px;
+    color: #fff;
+    background-color: #2C2C2C;
+    font-size: 15px;
+}
+
+.SignUpModal.openModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.3s;
+}
+
+@keyframes modal-show {
+    from {
+        opacity: 0;
+        margin-top: -50px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes modal-bg-show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

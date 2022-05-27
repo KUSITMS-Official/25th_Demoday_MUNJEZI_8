@@ -1,0 +1,165 @@
+.reviewBookInfo {
+    margin: 40px 70px 45px 70px;
+    display: flex;
+    justify-content: left;
+}
+
+.reviewBookEmpty {
+    width: 373px;
+    height: 499px;
+    background: #9E9E9E;
+    box-shadow: 0 0 13px 5px rgba(158, 158, 158, 0.2);
+    border-radius: 3px;
+}
+
+.reviewBookSearch {
+    margin-left: 60px;
+    width: auto;
+}
+
+.reviewRating {
+    margin-top: 52px;
+}
+
+.reviewRating .rate_radio {
+    position: relative;
+    z-index: 20;
+    opacity: 0.001;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    cursor: pointer;
+    vertical-align: top;
+    display: none;
+}
+
+.reviewRating .rate_radio + label {
+    position: relative;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-image: url("../../public/img/Star.svg");
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    cursor: pointer;
+}
+
+.reviewRating .rate_radio:checked + label {
+    background-image: url("../../public/img/StarPress.svg");
+}
+
+.reviewBookSearchBar {
+    display: flex;
+    margin: 14px 0 0 0;
+    min-width: 681px;
+    height: 36px;
+    border-bottom: 0.2px solid #000000;
+    justify-content: left;
+}
+
+.reviewBookSearchBtn {
+    width: 30px;
+    height: 30px;
+    border: 0;
+    background: url("../../public/img/SearchIcon.svg");
+    cursor: pointer;
+}
+
+.reviewBookSearchInput {
+    padding-bottom: 4px;
+    font-size: 20px;
+    outline: none;
+    margin: 1px 12px;
+    width: 100%;
+    border: 0;
+}
+
+.reviewBookSearchDataXi {
+    margin: 20px 0 0 46px;
+    width: 193px;
+    height: 257px;
+    border: none;
+}
+
+.reviewBookSearchNot {
+    height: 20px;
+}
+
+.reviewBookSearchNot > img {
+    display: block;
+    margin: 88px auto 18px auto;
+    width: 83px;
+    height: 83px;
+    border: none;
+}
+
+.reviewBookSearchNot > div {
+    text-align: center;
+}
+
+.reviewBookSearchNot > div > span {
+    color: #1C66FF;
+    font-weight: 700;
+}
+
+.reviewBookSearchNot > div:nth-child(3) {
+    position: relative;
+    margin-top: 12px;
+    text-decoration: underline;
+    text-underline-position: under;
+}
+
+.reviewBookSearchNotBtn {
+    position: absolute;
+    bottom: 0;
+    width: 18px;
+    height: 18px;
+    margin: 0 0 0 7px;
+    padding: 0;
+    border: 0;
+    cursor: pointer;
+}
+
+.reviewBookDetail {
+    position: relative;
+    display: flex;
+    min-width: 1300px;
+    height: 123px;
+    margin: 45px 70px 70px 70px;
+    border: 0.2px solid #000000;
+    justify-content: left;
+}
+
+.reviewBookDetail > textarea {
+    resize: none;
+    border: 0;
+    padding: 18px 0 0 20px;
+    width: 1086px;
+    outline: none;
+}
+
+.reviewBookDetail > button:nth-child(1) {
+    color: #2C2C2C;
+    width: 101px;
+    font-weight: lighter;
+    height: 100%;
+    font-size: 30px;
+    background: 0;
+    border: 0;
+    border-right: 0.2px solid #000000;
+    cursor: pointer;
+}
+
+.reviewBookDetail > button:nth-child(3) {
+    position: absolute;
+    color: #FFFFFF;
+    width: 113px;
+    height: 100%;
+    font-size: 20px;
+    background: #1C66FF;
+    border: 0;
+    border-left: 0.2px solid #000000;
+    cursor: pointer;
+    right: 0;
+    
+}

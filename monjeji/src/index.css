@@ -1,0 +1,27 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+@font-face {
+    font-family: "SUIT-Regular";
+    src: url("../public/fonts/SUIT-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SUIT-Medium";
+    src: url("../public/fonts/SUIT-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "SUIT-Bold";
+    src: url("../public/fonts/SUIT-Bold.ttf") format("truetype");
+}

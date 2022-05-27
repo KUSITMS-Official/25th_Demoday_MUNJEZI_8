@@ -1,0 +1,104 @@
+.SignInModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+.SignInModal button {
+    outline: none;
+    cursor: pointer;
+    border: 0;
+}
+
+.signInSection{
+    width: 450px;
+    height: 450px;
+    margin: 0 auto;
+    border-radius: 0.3rem;
+    background-color: #ffffff;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-show 0.3s;
+    overflow: hidden;
+}
+
+.signInHeader{
+    height: 15%;
+    position: relative;
+    padding: 16px 64px 16px 16px;
+    background-color: #ffffff;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+.SignInModal > section > header button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 30px;
+    font-size: 21px;
+    font-weight: 700;
+    text-align: center;
+    color: #999;
+    background-color: transparent;
+}
+
+.loginBox {
+    margin: 10px 45px;
+    border-radius: 2px;
+    width: 80%;
+    height: 40px;
+    border: 0;
+    border-bottom: 1px solid #2C2C2C;
+    outline: none;
+    box-sizing: border-box;
+}
+
+.SignInModal > section > footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
+.loginButton {
+    width: 80%;
+    height: 45px;
+    color: #fff;
+    background-color: #2C2C2C;
+    font-size: 15px;
+}
+
+.loginFindButton {
+    padding: 10px 30px 0 30px;
+    background-color: #ffffff;
+}
+
+.SignInModal.openModal {
+    display: flex;
+    align-items: center;
+    /* 팝업이 열릴때 스르륵 열리는 효과 */
+    animation: modal-bg-show 0.3s;
+}
+
+@keyframes modal-show {
+    from {
+        opacity: 0;
+        margin-top: -50px;
+    }
+    to {
+        opacity: 1;
+        margin-top: 0;
+    }
+}
+
+@keyframes modal-bg-show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}

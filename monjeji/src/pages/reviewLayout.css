@@ -1,0 +1,20 @@
+.reviewLayout{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.FilterList{
+    padding-top: 40px;
+    width: 450px;
+}
+
+.reviewDividerVertical{
+    border-left: 0.2px solid #2C2C2C;
+    margin: 5px 0;
+}
+
+.ReviewListVertical{
+    width: 1200px;
+}

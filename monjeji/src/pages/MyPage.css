@@ -1,0 +1,258 @@
+.myPageTitleLeft {
+    padding: 5px 800px 10px 70px;
+}
+
+.myPageDivider {
+    width: 100%;
+    border-bottom: 0.2px solid #2C2C2C;
+    margin: 0;
+}
+
+.myPageVertical {
+    border-left: 0.2px solid #32a1ce;
+    margin: 5px 0;
+}
+
+/*------------------------------------*/
+
+.myPageInfo {
+    display: flex;
+    width: 100%;
+    height: 513px;
+    justify-content: left;
+}
+
+.userInfoLeft {
+    position: relative;
+    padding-top: 51px;
+    padding-left: 70px;
+    min-width: 410px;
+    font-size: 25px;
+    border-right: 1px solid #2C2C2C;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+li {
+    display: block;
+    padding-bottom: 20px;
+}
+
+.liFlex {
+    font-size: 18px;
+    display: flex;
+}
+
+#hide {
+    display: none;
+    white-space: pre;
+}
+
+.myPageName > input {
+    width: 4rem;
+    border: 0;
+    color: #1C66FF;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0;
+    outline: none;
+}
+
+.infoShort {
+    width: 100%;
+}
+
+.infoShort > input {
+    border: 0;
+    height: 28px;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-position: under;
+    outline: none;
+}
+
+.infoShort > span {
+    display: none;
+    white-space: pre;
+}
+
+.infoLong {
+    width: 100%;
+}
+
+.infoLong > input {
+    border: 0;
+    width: 99%;
+    font-size: 18px;
+    text-decoration: underline;
+    text-underline-position: under;;
+    outline: none;
+}
+
+.infoLong > span {
+    display: none;
+    white-space: pre;
+}
+
+.userInfoLeft > button {
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    bottom: 0;
+    left: 0;
+    background: rgba(28, 102, 255, 0.1);
+    border: 0;
+    border-top: 0.2px solid #2C2C2C;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*-------------------------------*/
+
+.userInfoRight {
+    position: relative;
+    width: 100%;
+    min-width: 960px;
+    padding-top: 51px;
+}
+
+.subjectLevel {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    padding-bottom: 27px;
+}
+
+.subjectLevel > div > div:nth-child(1) {
+    font-size: 20px;
+}
+
+.subjectLevel > div > select {
+    font-family: SUIT-Regular;
+    font-size: 20px;
+    border: 0;
+    margin-left: 10px;
+
+    text-align-last: center;
+    text-align: center;
+    -ms-text-align-last: center;
+    -moz-text-align-last: center;
+}
+
+.subjectLevelBorder {
+    box-sizing: border-box;
+    width: 139px;
+    height: 139px;
+    left: 701px;
+    top: 389px;
+    border: 1px dashed #2C2C2C;
+    border-radius: 50%;
+    padding-top: 14px;
+
+    text-align: center;
+    margin-top: 9px;
+    font-size: 20px;
+}
+
+.subjectLevelBorder > input {
+    text-align: center;
+    border: 0;
+    width: 2rem;
+    font-size: 60px;
+    font-weight: bold;
+    color: #1C66FF;
+}
+
+.subjectLevelBorder > span {
+    font-size: 20px;
+}
+
+.userInfoRight > button {
+    position: absolute;
+    width: 100%;
+    height: 47px;
+    bottom: 0;
+    left: 0;
+    background: rgba(28, 102, 255, 0.1);
+    border: 0;
+    border-top: 0.2px solid #2C2C2C;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+/*------------------------------------*/
+
+.myPageUserPoint {
+    display: flex;
+    width: 100%;
+    height: 133px;
+}
+
+.userPointInfoLeft {
+    padding-top: 35px;
+    min-width: 480px;
+    text-align: center;
+    font-size: 25px;
+    border-right: 0.2px solid #2C2C2C;
+}
+
+.UserPointInfoRight {
+    display: flex;
+    width: 100%;
+    min-width: 668px;
+    justify-content: space-around;
+}
+
+.UserPointInfo {
+    padding-top: 35px;
+    text-align: center;
+    min-width: 480px;
+    font-size: 25px;
+}
+
+.pointTitle {
+    margin-bottom: 8px;
+}
+
+.pointTitleScoreBold {
+    color: #1C66FF;
+}
+
+.pointTitleScoreLight {
+    color: #1C66FF;
+}
+
+/*------------------------------------*/
+
+.myPageHeart {
+    height: 330px;
+}
+
+.myPageHeartHeader {
+    display: flex;
+    justify-content: left;
+}
+
+.myPageHeartHeader > div:nth-child(1) {
+    position: relative;
+    top: -10px;
+    width: 52px;
+    border-bottom: 0.2px solid #2C2C2C;
+}
+
+.myPageHeartHeader > div:nth-child(2) {
+    padding: 30px 0 0 18px;
+}
+
+.myPageHeartBooks {
+    margin: 18px 0 41px 70px;
+}
+
+.myPageHeartBooks > img {
+    width: 181px;
+    margin-right: 25px;
+}
